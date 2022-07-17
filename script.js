@@ -43,7 +43,7 @@ const getWeather=async(city)=>{
         else if(id==800){
             tempicon.src="./img/clear.png"
         }
-        else if(id<=804 && id>=800){
+        else if(id<=804 && id>=801){
             tempicon.src="./img/clouds.png"
         }
 
@@ -93,7 +93,7 @@ window.addEventListener('load',()=>{
                 else if(id==800){
                     tempicon.src="./img/clear.png"
                 }
-                else if(id<=804 && id>=800){
+                else if(id<=804 && id>=801){
                     tempicon.src="./img/clouds.png"
                 }
             })
