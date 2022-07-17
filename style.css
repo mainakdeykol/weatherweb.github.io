@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.navbar{
+    --bs-navbar-padding-y: 0rem;
+}
+.navbar .container-fluid{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    /* background-color: rgba(126, 179, 240, 0.205);; */
+    font-weight: bolder;
+}
+.navbar .navbar-brand{
+    color: white;
+    padding: 10px;
+}
+p{
+    margin: 0;
+}
+body{
+    height: 100px;
+    background-image: url('img/sea-stormy-weathervideo.jpg');
+}
+#search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#temp{
+    text-align: center;
+}
+#temp #temp-icon{
+    margin: 20px;
+    margin-bottom: 30px;
+}
+#temp #temp-unit{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+#temp #temp-value{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+#climate{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: aliceblue;
+    text-align: center;
+}
+#location{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: center;
+}
+#temp-icon{
+    margin: 0;
+    width: 40%;
+    height: auto;
+}
+main{
+    padding: 20px;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#search-button{
+    color: rgb(46, 57, 117);
+    text-decoration: none;
+    background-color: white;
+    border-radius: 7px;
+    margin-left: 5px;
+    padding: 11px;
+    border: 2px solid rgb(82, 82, 156);
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    font-weight: bold;
+}
+#search-button:hover{
+    color:white;
+    background-color: rgb(103, 157, 173);
+    border-color: azure;
+    transition: all 0.4s ease 0s;
+}
+#search-input{
+    width: 260px;
+    overflow: hidden;
+    font-size: 18px;
+    margin: 8px 0px;
+    padding: 8px 8px;
+    border: 2px solid rgb(192, 193, 240);
+    color: black;
+    outline: none;
+    background:none;
+    font-weight: bold;
+}
+input{
+    border: none;
+}
